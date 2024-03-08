@@ -9,10 +9,10 @@ public class Main {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int b=sc.nextInt();
-        sum(a,b);
+        Calculator calculator=new Calculator();
+        calculator.sum(a,b);
+        calculator.substract(a,b);
+        calculator.multiply(a,b);
     }
 
-    public static void sum(int a,int b){
-        System.out.println(a+b);
-    }
 }
